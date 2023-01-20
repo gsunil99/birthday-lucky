@@ -1,0 +1,62 @@
+:root {
+    --primary-color: #c2410c;
+    --white-color: #fffbeb;
+    --width: 600px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+nav{
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 1rem;
+}
+main{
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width);
+    text-align: center;
+}
+p{
+    font-size: larger;
+}
+label{
+    display: block;
+    margin-top: 2rem;
+    font-size: large;
+}
+input{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--primary-color);
+}
+button{
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 0.5rem 1rem;
+    font-size: large;
+    border-radius: 1rem;
+}
+#p-lucky-or-not{
+    color: orangered;
+    font-size: x-large;
+    font-weight: 600;
+}
+footer {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    width: 100%;
+    color: var(--white-color);
+}
